@@ -18,7 +18,7 @@
     -   UseCases: 비즈니스 로직을 캡슐화하여 ViewModel에 전달해주는 클래스
     -   RepositoryDelegate: Repository의 프로토콜을 정의해놓은 클래스
     -   DTO+VO: API 통신시에 데이터 변환을 도와주는 클래스
-        -   DTO: 주로 Get 메서드를 사용할 때 사용 → 해당 프로젝트의 경우 처음에 모든 데이터를 받아와서 Storage에서 관리하기 때문에 따로 사용하지않음.
+        -   DTO: 주로 Get 메서드를 사용할 때 사용
         -   VO: 주로 Post 메서드를 사용할 때 사용
 -   Data: DB, API와 관련된 계층
     -   Repositories: Domain에 있는 프로토콜을 구현하는 실질적인 비즈니스 로직을 담당하는 클래스
